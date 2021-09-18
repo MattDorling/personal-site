@@ -1,5 +1,5 @@
 import cn from 'classnames'
-import { InputHTMLAttributes, ReactChild, useState } from 'react'
+import { InputHTMLAttributes, MouseEvent, ReactChild, useState } from 'react'
 
 export interface ToggleButtonProps
   extends InputHTMLAttributes<HTMLInputElement> {
@@ -13,16 +13,18 @@ export function ToggleButton({
   defaultChecked,
   offIcon,
   onIcon,
-  onClick,
+  ...props
 }: ToggleButtonProps) {
   const [checked, setChecked] = useState(defaultChecked)
+
   return (
-    <div onClick={onClick}>
+    <div>
       {!!label && <span className="pr-4 text-primary">{label}</span>}
       <div
         className="cursor-pointer focus:ring-2 focus:ring-focus inline-block rounded-sm"
-        onClick={() => {
+        onClick={(e: any) => {
           setChecked(!checked)
+          props.onClick(e)
         }}
         tabIndex={0}
       >
