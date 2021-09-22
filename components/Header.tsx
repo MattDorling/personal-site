@@ -11,7 +11,7 @@ const DarkModeToggle = dynamic(
 
 export function Header() {
   return (
-    <nav className="w-full max-w-screen-lg mx-auto flex flex-row justify-center space-x-16">
+    <nav className="w-full max-w-screen-lg mx-auto flex flex-row items-center justify-evenly">
       <MenuItem label="Home" href="/" />
       <MenuItem label="Experience" href="/" />
       <MenuItem label="Contact" href="/" />
@@ -27,7 +27,7 @@ interface MenuItemProps {
 function MenuItem({ label, href }: MenuItemProps) {
   return (
     <Link href={href}>
-      <a className="text-primary dark:text-tertiary dark:hover:text-black text-xl m-2 items-center flex h-16 hover:text-black duration-300 transition hover:-translate-y-0.5">
+      <a className=" dark:hover:text-black  font-light text-xl m-2 items-center flex h-16 hover:text-black duration-300 transition hover:-translate-y-0.5">
         {label}
       </a>
     </Link>
