@@ -53,7 +53,7 @@ export default function HomePage() {
           alt="Matt Dorling skiing in the Cairngorms, Scotland"
         >
           <p>
-            When I'm not studying or volunteering, I am likely to be at the
+            When I&apos;m not studying or volunteering, I am likely to be at the
             local bouldering gym or on a bike ride.
           </p>
           <p>

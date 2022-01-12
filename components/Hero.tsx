@@ -21,7 +21,7 @@ export function Hero() {
           <h1>Hello</h1>
           <div className="text-2xl pt-4 space-y-4">
             <p>
-              I'm <span className="font-semibold">Matt Dorling</span>
+              I&apos;m <span className="font-semibold">Matt Dorling</span>
             </p>
             <ul>
               <li>Software Developer</li>
