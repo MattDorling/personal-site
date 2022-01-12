@@ -12,7 +12,7 @@ export function Link({ href, newTab = false, children, ...props }: MyLinkProps) 
       <a
         rel={newTab && 'noopener noreferrer'}
         target={newTab && '_blank'}
-        className="font-medium hover:underline focus:underline"
+        className="font-medium hover:underline focus:underline hover:opacity-80"
       >
         {children}
       </a>
