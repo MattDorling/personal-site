@@ -11,13 +11,19 @@
   h6,
   a,
   p,
+  ul,
+  ol,
+  div,
   span {
     @apply transition-colors duration-300 text-primary dark:text-tertiary;
   }
   h1 {
-    @apply text-5xl font-semibold;
+    @apply text-3xl sm:text-5xl font-semibold;
   }
   h2 {
     @apply text-xl;
+  }
+  ul {
+    @apply list-disc pl-8;
   }
 }

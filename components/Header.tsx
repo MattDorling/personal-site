@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { Link } from 'react-scroll'
 
 import dynamic from 'next/dynamic'
 
@@ -12,9 +12,9 @@ const DarkModeToggle = dynamic(
 export function Header() {
   return (
     <nav className="w-full max-w-screen-lg mx-auto flex flex-row items-center justify-evenly">
-      <MenuItem label="Home" href="/" />
-      <MenuItem label="Experience" href="/" />
-      <MenuItem label="Contact" href="/" />
+      <MenuItem label="Home" linkTo="home" />
+      <MenuItem label="Experience" linkTo="experience" />
+      <MenuItem label="Contact" linkTo="contact" />
       <DarkModeToggle />
     </nav>
   )
@@ -22,12 +22,12 @@ export function Header() {
 
 interface MenuItemProps {
   label: string
-  href: string
+  linkTo: string
 }
-function MenuItem({ label, href }: MenuItemProps) {
+function MenuItem({ label, linkTo }: MenuItemProps) {
   return (
-    <Link href={href}>
-      <a className=" dark:hover:text-black  font-light text-xl m-2 items-center flex h-16 hover:text-black duration-300 transition hover:-translate-y-0.5">
+    <Link to={linkTo} smooth={true} duration={500}>
+      <a className="dark:hover:text-black cursor-pointer  font-light text-xl m-2 items-center flex h-16 hover:text-black duration-300 transition hover:-translate-y-0.5">
         {label}
       </a>
     </Link>
