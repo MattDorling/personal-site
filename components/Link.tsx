@@ -3,10 +3,10 @@ import { ReactNode } from 'react'
 
 interface MyLinkProps {
   href: string
-  newTab: boolean
+  newTab?: boolean
   children: ReactNode
 }
-export function Link({ href, newTab, children, ...props }: MyLinkProps) {
+export function Link({ href, newTab = false, children, ...props }: MyLinkProps) {
   return (
     <NextLink href={href} {...props}>
       <a
