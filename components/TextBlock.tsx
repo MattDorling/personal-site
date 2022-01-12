@@ -5,7 +5,7 @@ interface TextBlockProps {
 }
 export function TextBlock({children}: TextBlockProps) {
   return (
-      <div className="max-w-screen-lg flex sm:flex-row flex-col mx-auto gap-4 p-4">
+      <div className="max-w-screen-lg lg:w-2/3 mx-auto space-y-8 py-16 px-4">
         {children}
       </div>
   )
