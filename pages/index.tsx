@@ -35,7 +35,7 @@ export default function HomePage() {
           </p>
           <p>
             While studying for my Bachelors in Computer Science, I have so far
-            studied some really interesting courses inluding Vision and
+            studied some really interesting courses including Vision and
             Robotics, Software Engineering, Computer Security, Computer
             Communications and Networks, Databases and much more. For my latest
             group project, we built an award-winning autonomous garden cleaning
