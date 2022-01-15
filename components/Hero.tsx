@@ -18,23 +18,18 @@ export function Hero() {
           />
         </div>
         <div className="mx-auto sm:mx-0">
-          <h1>Hello</h1>
-          <div className="text-2xl pt-4 space-y-4">
-            <p>
-              I&apos;m <span className="font-semibold">Matt Dorling</span>
-            </p>
-            <ul>
-              <li>Software Developer</li>
-              <li>
-                Computer Science student at the{' '}
-                <Link newTab href="https://www.ed.ac.uk">
-                  University of Edinburgh
-                </Link>
-              </li>
-              <li>Skier</li>
-              <li>Environmentalist</li>
-            </ul>
-          </div>
+          <h1>Hi, I&apos;m Matt Dorling</h1>
+          <ul className="text-2xl pt-8 space-y-2">
+            <li>Software Developer</li>
+            <li>
+              Computer Science student at the{' '}
+              <Link newTab href="https://www.ed.ac.uk">
+                University of Edinburgh
+              </Link>
+            </li>
+            <li>Skier</li>
+            <li>Environmentalist</li>
+          </ul>
         </div>
       </div>
     </div>

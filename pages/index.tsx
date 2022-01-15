@@ -9,7 +9,6 @@ import {
   FaEnvelope,
   FaGithub,
   FaInstagram,
-  FaLink,
   FaLinkedin,
 } from 'react-icons/fa'
 
