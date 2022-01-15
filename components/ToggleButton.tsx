@@ -31,8 +31,8 @@ export function ToggleButton({
         <input className="hidden" type="checkbox" />
         <div
           className={cn(
-            'flex h-6 items-center transition-colors duration-300 p-1 ring-2 ring-inset rounded-full w-10 cursor-pointer ring-primary',
-            checked ? 'bg-secondary' : 'bg-tertiary'
+            'flex h-6 items-center transition-colors duration-300 p-1 ring-2 ring-inset rounded-full w-10 cursor-pointer ring-primary bg-tertiary'
+            // checked ? 'bg-secondary' : 'bg-tertiary'
           )}
         >
           <div
@@ -53,7 +53,7 @@ export function ToggleButton({
             </div>
             <div
               className={cn(
-                'transition absolute',
+                'transition absolute dark:text-primary',
                 checked ? 'opacity-100 ' : 'opacity-0'
               )}
             >
