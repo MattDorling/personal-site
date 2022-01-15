@@ -5,12 +5,7 @@ import { TextBlock } from '../components/TextBlock'
 import { Link } from '../components/Link'
 import { ImageBlock } from '../components/ImageBlock'
 import skiingImage from '../assets/skiing-cairngorms.jpg'
-import {
-  FaEnvelope,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-} from 'react-icons/fa'
+import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 export default function HomePage() {
   return (
@@ -33,12 +28,12 @@ export default function HomePage() {
             development team.
           </p>
           <p>
-            While studying for my Bachelors in Computer Science, I have so far
-            studied some really interesting courses including Vision and
-            Robotics, Software Engineering, Computer Security, Computer
-            Communications and Networks, Databases and much more. For my latest
-            group project, we built an award-winning autonomous garden cleaning
-            robot called RoboGardener. Check it out{' '}
+            While studying for my Bachelors in Computer Science, I have studied
+            some really interesting courses including Vision and Robotics,
+            Software Engineering, Computer Security, Computer Communications and
+            Networks, Databases and much more. For my latest group project, we
+            built an award-winning autonomous garden cleaning robot called
+            RoboGardener. Check it out{' '}
             <Link href="https://robogardenerteam.github.io" newTab>
               here
             </Link>
