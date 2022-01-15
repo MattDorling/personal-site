@@ -15,6 +15,7 @@ export function Hero() {
             src={largeProfile}
             alt="Picture of Matt Dorling with a coastal background"
             placeholder="blur"
+            priority={true}
           />
         </div>
         <div className="mx-auto sm:mx-0">
