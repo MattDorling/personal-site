@@ -45,11 +45,11 @@ export default function HomePage() {
           </p>
           <p>
             While studying for my Bachelors in Computer Science, I have studied
-            some really interesting courses including Vision and Robotics,
-            Software Engineering, Computer Security, Computer Communications and
-            Networks, Databases and much more. For my latest group project, we
-            built an award-winning autonomous garden cleaning robot called
-            RoboGardener. Check it out{' '}
+            some really interesting courses including Operating Systems,
+            Software Engineering, Geospatial Algorithms, Vision and Robotics,
+            Computer Security, Networking, Databases and much more. For my
+            latest group project, we built an award-winning autonomous garden
+            cleaning robot called RoboGardener. Check it out{' '}
             <Link href="https://robogardenerteam.github.io" newTab>
               here
             </Link>
