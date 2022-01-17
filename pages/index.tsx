@@ -7,10 +7,15 @@ import { ImageBlock } from '../components/ImageBlock'
 import skiingImage from '../assets/skiing-cairngorms.jpg'
 import largeProfile from '../assets/profile/large.jpg'
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import MetaTags from '../components/MetaTags'
 
 export default function HomePage() {
   return (
     <Layout>
+      <MetaTags
+        pageTitle="Matt Dorling"
+        description="Matt Dorling is a software developer and final-year Computer Science student at the University of Edinburgh, currently seeking graduate employment. Love skiing and bouldering."
+      />
       <Element name="home">
         <Hero
           src={largeProfile}
