@@ -1,4 +1,4 @@
-import NextLink, { LinkProps } from 'next/link'
+import NextLink from 'next/link'
 import { ReactNode } from 'react'
 
 interface MyLinkProps {
@@ -6,7 +6,12 @@ interface MyLinkProps {
   newTab?: boolean
   children: ReactNode
 }
-export function Link({ href, newTab = false, children, ...props }: MyLinkProps) {
+export function Link({
+  href,
+  newTab = false,
+  children,
+  ...props
+}: MyLinkProps) {
   return (
     <NextLink href={href} {...props}>
       <a

@@ -7,14 +7,9 @@ export interface LayoutProps {
 }
 export function Layout({ children }: LayoutProps) {
   return (
-    <>
-      <Head>
-        <title>Matt Dorling</title>
-      </Head>
-      <div className="bg-white dark:bg-primary transition-colors duration-300">
-        <Header />
-        {children}
-      </div>
-    </>
+    <div className="bg-white dark:bg-primary transition-colors duration-300">
+      <Header />
+      {children}
+    </div>
   )
 }

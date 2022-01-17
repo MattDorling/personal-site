@@ -1,5 +1,5 @@
 import cn from 'classnames'
-import { InputHTMLAttributes, MouseEvent, ReactChild, useState } from 'react'
+import { InputHTMLAttributes, ReactChild, useState } from 'react'
 
 export interface ToggleButtonProps
   extends InputHTMLAttributes<HTMLInputElement> {
@@ -32,7 +32,6 @@ export function ToggleButton({
         <div
           className={cn(
             'flex h-6 items-center transition-colors duration-300 p-1 ring-2 ring-inset rounded-full w-10 cursor-pointer ring-primary bg-tertiary'
-            // checked ? 'bg-secondary' : 'bg-tertiary'
           )}
         >
           <div
