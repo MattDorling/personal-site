@@ -14,7 +14,7 @@ export function Hero({ src, alt, children }: HeroProps) {
         <div className="max-w-sm sm:max-w-xs mx-auto sm:mx-0 relative flex z-10 overflow-hidden">
           <Image src={src} alt={alt} placeholder="blur" priority={true} />
         </div>
-        <div className="mx-auto sm:mx-0 text-2xl my-auto">{children}</div>
+        <div className="mx-auto sm:mx-0 text-2xl space-y-4 my-auto">{children}</div>
       </div>
     </div>
   )
