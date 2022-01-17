@@ -5,13 +5,29 @@ import { TextBlock } from '../components/TextBlock'
 import { Link } from '../components/Link'
 import { ImageBlock } from '../components/ImageBlock'
 import skiingImage from '../assets/skiing-cairngorms.jpg'
+import largeProfile from '../assets/profile/large.jpg'
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 export default function HomePage() {
   return (
     <Layout>
       <Element name="home">
-        <Hero />
+        <Hero
+          src={largeProfile}
+          alt="Picture of Matt Dorling with a coastal background"
+        >
+          <p>
+            Hi, I&apos;m <b>Matt Dorling</b>.
+          </p>
+          <p>
+            {' '}
+            I am a Computer Science student at the{' '}
+            <Link newTab href="https://www.ed.ac.uk">
+              University of Edinburgh
+            </Link>
+            , Software Developer, Environmentalist, and Skier.
+          </p>
+        </Hero>
       </Element>
       <Element name="experience">
         <TextBlock>
