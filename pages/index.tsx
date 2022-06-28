@@ -26,7 +26,7 @@ export default function HomePage() {
           </p>
           <p>
             {' '}
-            I am a Computer Science student at the{' '}
+            I am recent graduate of Computer Science at the{' '}
             <Link newTab href="https://www.ed.ac.uk">
               University of Edinburgh
             </Link>
