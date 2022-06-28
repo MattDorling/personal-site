@@ -14,7 +14,7 @@ export default function HomePage() {
     <Layout>
       <MetaTags
         pageTitle="Matt Dorling"
-        description="Matt Dorling is a software developer and final-year Computer Science student at the University of Edinburgh, currently seeking graduate employment. Love skiing and bouldering."
+        description="Matt Dorling is a software developer and Computer Science graduate of the University of Edinburgh, currently seeking graduate employment. Enjoys skiing and bouldering."
       />
       <Element name="home">
         <Hero
